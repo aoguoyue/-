@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264A516D1BCEA988009FBA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264A516C1BCEA988009FBA0B /* main.m */; };
+		264A51701BCEA988009FBA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264A516F1BCEA988009FBA0B /* AppDelegate.m */; };
+		264A51731BCEA988009FBA0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264A51721BCEA988009FBA0B /* ViewController.m */; };
+		264A51761BCEA988009FBA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264A51741BCEA988009FBA0B /* Main.storyboard */; };
+		264A51781BCEA988009FBA0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264A51771BCEA988009FBA0B /* Images.xcassets */; };
+		264A517B1BCEA988009FBA0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264A51791BCEA988009FBA0B /* LaunchScreen.xib */; };
+		264A51871BCEA988009FBA0B /* _______________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264A51861BCEA988009FBA0B /* _______________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264A51811BCEA988009FBA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264A515F1BCEA988009FBA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264A51661BCEA988009FBA0B;
+			remoteInfo = "设置一个日期与当期时间的时间差";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264A51671BCEA988009FBA0B /* 设置一个日期与当期时间的时间差.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "设置一个日期与当期时间的时间差.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264A516B1BCEA988009FBA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264A516C1BCEA988009FBA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264A516E1BCEA988009FBA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264A516F1BCEA988009FBA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264A51711BCEA988009FBA0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		264A51721BCEA988009FBA0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		264A51751BCEA988009FBA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264A51771BCEA988009FBA0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		264A517A1BCEA988009FBA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		264A51801BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "设置一个日期与当期时间的时间差Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264A51851BCEA988009FBA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264A51861BCEA988009FBA0B /* _______________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264A51641BCEA988009FBA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264A517D1BCEA988009FBA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264A515E1BCEA988009FBA0B = {
+			isa = PBXGroup;
+			children = (
+				264A51691BCEA988009FBA0B /* 设置一个日期与当期时间的时间差 */,
+				264A51831BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests */,
+				264A51681BCEA988009FBA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264A51681BCEA988009FBA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264A51671BCEA988009FBA0B /* 设置一个日期与当期时间的时间差.app */,
+				264A51801BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264A51691BCEA988009FBA0B /* 设置一个日期与当期时间的时间差 */ = {
+			isa = PBXGroup;
+			children = (
+				264A516E1BCEA988009FBA0B /* AppDelegate.h */,
+				264A516F1BCEA988009FBA0B /* AppDelegate.m */,
+				264A51711BCEA988009FBA0B /* ViewController.h */,
+				264A51721BCEA988009FBA0B /* ViewController.m */,
+				264A51741BCEA988009FBA0B /* Main.storyboard */,
+				264A51771BCEA988009FBA0B /* Images.xcassets */,
+				264A51791BCEA988009FBA0B /* LaunchScreen.xib */,
+				264A516A1BCEA988009FBA0B /* Supporting Files */,
+			);
+			path = "设置一个日期与当期时间的时间差";
+			sourceTree = "<group>";
+		};
+		264A516A1BCEA988009FBA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264A516B1BCEA988009FBA0B /* Info.plist */,
+				264A516C1BCEA988009FBA0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		264A51831BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests */ = {
+			isa = PBXGroup;
+			children = (
+				264A51861BCEA988009FBA0B /* _______________Tests.m */,
+				264A51841BCEA988009FBA0B /* Supporting Files */,
+			);
+			path = "设置一个日期与当期时间的时间差Tests";
+			sourceTree = "<group>";
+		};
+		264A51841BCEA988009FBA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264A51851BCEA988009FBA0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264A51661BCEA988009FBA0B /* 设置一个日期与当期时间的时间差 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264A518A1BCEA988009FBA0B /* Build configuration list for PBXNativeTarget "设置一个日期与当期时间的时间差" */;
+			buildPhases = (
+				264A51631BCEA988009FBA0B /* Sources */,
+				264A51641BCEA988009FBA0B /* Frameworks */,
+				264A51651BCEA988009FBA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "设置一个日期与当期时间的时间差";
+			productName = "设置一个日期与当期时间的时间差";
+			productReference = 264A51671BCEA988009FBA0B /* 设置一个日期与当期时间的时间差.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264A517F1BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264A518D1BCEA988009FBA0B /* Build configuration list for PBXNativeTarget "设置一个日期与当期时间的时间差Tests" */;
+			buildPhases = (
+				264A517C1BCEA988009FBA0B /* Sources */,
+				264A517D1BCEA988009FBA0B /* Frameworks */,
+				264A517E1BCEA988009FBA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264A51821BCEA988009FBA0B /* PBXTargetDependency */,
+			);
+			name = "设置一个日期与当期时间的时间差Tests";
+			productName = "设置一个日期与当期时间的时间差Tests";
+			productReference = 264A51801BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264A515F1BCEA988009FBA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = aoguoyue;
+				TargetAttributes = {
+					264A51661BCEA988009FBA0B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					264A517F1BCEA988009FBA0B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 264A51661BCEA988009FBA0B;
+					};
+				};
+			};
+			buildConfigurationList = 264A51621BCEA988009FBA0B /* Build configuration list for PBXProject "设置一个日期与当期时间的时间差" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264A515E1BCEA988009FBA0B;
+			productRefGroup = 264A51681BCEA988009FBA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264A51661BCEA988009FBA0B /* 设置一个日期与当期时间的时间差 */,
+				264A517F1BCEA988009FBA0B /* 设置一个日期与当期时间的时间差Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264A51651BCEA988009FBA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264A51761BCEA988009FBA0B /* Main.storyboard in Resources */,
+				264A517B1BCEA988009FBA0B /* LaunchScreen.xib in Resources */,
+				264A51781BCEA988009FBA0B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264A517E1BCEA988009FBA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264A51631BCEA988009FBA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264A51731BCEA988009FBA0B /* ViewController.m in Sources */,
+				264A51701BCEA988009FBA0B /* AppDelegate.m in Sources */,
+				264A516D1BCEA988009FBA0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264A517C1BCEA988009FBA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264A51871BCEA988009FBA0B /* _______________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264A51821BCEA988009FBA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264A51661BCEA988009FBA0B /* 设置一个日期与当期时间的时间差 */;
+			targetProxy = 264A51811BCEA988009FBA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264A51741BCEA988009FBA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264A51751BCEA988009FBA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264A51791BCEA988009FBA0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264A517A1BCEA988009FBA0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264A51881BCEA988009FBA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		264A51891BCEA988009FBA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264A518B1BCEA988009FBA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设置一个日期与当期时间的时间差/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		264A518C1BCEA988009FBA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "设置一个日期与当期时间的时间差/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		264A518E1BCEA988009FBA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "设置一个日期与当期时间的时间差Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设置一个日期与当期时间的时间差.app/设置一个日期与当期时间的时间差";
+			};
+			name = Debug;
+		};
+		264A518F1BCEA988009FBA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "设置一个日期与当期时间的时间差Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/设置一个日期与当期时间的时间差.app/设置一个日期与当期时间的时间差";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264A51621BCEA988009FBA0B /* Build configuration list for PBXProject "设置一个日期与当期时间的时间差" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264A51881BCEA988009FBA0B /* Debug */,
+				264A51891BCEA988009FBA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264A518A1BCEA988009FBA0B /* Build configuration list for PBXNativeTarget "设置一个日期与当期时间的时间差" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264A518B1BCEA988009FBA0B /* Debug */,
+				264A518C1BCEA988009FBA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		264A518D1BCEA988009FBA0B /* Build configuration list for PBXNativeTarget "设置一个日期与当期时间的时间差Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264A518E1BCEA988009FBA0B /* Debug */,
+				264A518F1BCEA988009FBA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264A515F1BCEA988009FBA0B /* Project object */;
+}
