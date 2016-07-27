@@ -50,7 +50,7 @@
     //NSDateFormatter日期格式类
     NSDateFormatter *dateStyleZDY=[[NSDateFormatter alloc] init];
     //自定义时间的格式
-    [dateStyleZDY setDateFormat:@"yyyy年MM月dd日 HH:mm:ss"];
+    [dateStyleZDY setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     //把这个字符串转换为dateStyleZDY格式的时间
     NSDate *date=[dateStyleZDY dateFromString:theDate];
     
@@ -59,16 +59,7 @@
     NSTimeInterval cha = [[NSDate date] timeIntervalSinceDate:date];
     int a= (int)cha;
     NSMutableArray * timeArrayList = [NSMutableArray array];
-    /*
-     published: "1448602493",
-     publishtime: "1448607897",
-     
-     published: "1448602493",
-     publishtime: "1448607897",
-     
-     published: "1448609162",
-     publishtime: "1448609475",
-     **/
+  
     //计算相差的天时分秒  放入数组
     NSNumber *day = [NSNumber numberWithInt:(a/(3600*24))];
     [timeArrayList addObject:day];
